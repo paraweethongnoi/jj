@@ -491,18 +491,19 @@ class _AgencyPageState extends State<AgencyPage> {
           padding: const EdgeInsets.all(5.0),
           child: Row(
             children: [
-              Column(crossAxisAlignment: CrossAxisAlignment.start,
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     'Academic Collaboration on Thai',
                     style: TextStyle(fontSize: 12),
-                  ),Text(
-                'Language and Culture for Foreign Students',
-                style: TextStyle(fontSize: 12),
-              ),
+                  ),
+                  Text(
+                    'Language and Culture for Foreign Students',
+                    style: TextStyle(fontSize: 12),
+                  ),
                 ],
               ),
-              
             ],
           ),
         ),
