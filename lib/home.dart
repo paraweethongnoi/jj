@@ -277,14 +277,6 @@ class _HomeState extends State<Home> {
               fit: BoxFit.cover,
             ),
           ),
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
@@ -326,9 +318,6 @@ class _HomeState extends State<Home> {
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
@@ -371,16 +360,12 @@ class _HomeState extends State<Home> {
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 70,
               height: 75,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/person.png',
               ),
@@ -423,7 +408,6 @@ class _HomeState extends State<Home> {
               children: <Widget>[],
               width: 60,
               height: 65,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/penitentiary.png',
               ),
@@ -463,18 +447,7 @@ class _HomeState extends State<Home> {
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
@@ -517,18 +490,7 @@ class _HomeState extends State<Home> {
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
@@ -561,29 +523,17 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 60,
               height: 65,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/contact.png',
               ),
@@ -611,29 +561,17 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 60,
               height: 65,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/news.png',
               ),
@@ -665,29 +603,17 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 60,
               height: 65,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/schedule.png',
               ),
@@ -719,29 +645,17 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 60,
               height: 65,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/66.png',
               ),
@@ -773,29 +687,17 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
               children: <Widget>[],
               width: 70,
               height: 75,
-              // paddingTop: 5,
               pressedImage: Image.asset(
                 'images/employee.png',
               ),
@@ -828,22 +730,11 @@ class _HomeState extends State<Home> {
         Container(
           width: 90,
           height: 95,
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.circular(50.0),
-          //   color: Colors.indigo.shade50,
-          //   gradient: LinearGradient(
-          //       begin: Alignment(0, 0),
-          //       end: Alignment(0.5, 0.5),
-          //       colors: <Color>[Color(0xfff6a5ec), Color(0xffffdc53)]),
-          // ),
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/buttonBG.png'),
               fit: BoxFit.cover,
             ),
-            // gradient: RadialGradient(
-            //     center: Alignment(0, -0.55),
-            //     colors: <Color>[Colors.white, Colors.pink[100]]),
           ),
           child: Center(
             child: ImageButton(
