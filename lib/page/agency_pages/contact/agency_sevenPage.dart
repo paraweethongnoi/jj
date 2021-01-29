@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class AgencyOne extends StatefulWidget {
+class AgencySeven extends StatefulWidget {
   @override
-  _AgencyOneState createState() => _AgencyOneState();
+  _AgencySevenState createState() => _AgencySevenState();
 }
 
-class _AgencyOneState extends State<AgencyOne> {
+class _AgencySevenState extends State<AgencySeven> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -14,7 +14,7 @@ class _AgencyOneState extends State<AgencyOne> {
       appBar: AppBar(
         toolbarHeight: 40,
         backgroundColor: Colors.purple,
-        title: Text('สำนักงานอธิการบดี'),
+        // title: Text('สำนักงานอธิการบดี'),
         leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () {
@@ -47,7 +47,7 @@ class _AgencyOneState extends State<AgencyOne> {
           borderRadius: BorderRadius.circular(50), color: Colors.white),
 
       // color: Colors.green,
-      child: Image.asset('images/agencyOne.jpg'),
+      child: Image.asset('images/gw.jpg'),
     );
   }
 
@@ -84,14 +84,14 @@ class _AgencyOneState extends State<AgencyOne> {
               // Text('เว็บไซต์'),
               TextButton(
                   onPressed: () async {
-                    const url = 'http://president.bsru.ac.th/th/';
+                    const url = 'http://financebsru.bsru.ac.th/';
                     if (await canLaunch(url)) {
                       await launch(url);
                     } else {
                       throw 'Couid not launch $url';
                     }
                   },
-                  child: Text('http://president.bsru.ac.th/th/'))
+                  child: Text('http://financebsru.bsru.ac.th/'))
             ],
           ),
         ));
@@ -116,9 +116,9 @@ class _AgencyOneState extends State<AgencyOne> {
               ),
               Text(
                 '0-2473-7000 ',
-                style: TextStyle(color: Colors.blue),
+                style: TextStyle(color: Colors.blue, fontSize: 22),
               ),
-              Text('ต่อ 1100,1108'),
+              Text('ต่อ 1200–1202'),
               IconButton(
                   icon: Icon(
                     Icons.local_phone,
@@ -156,14 +156,16 @@ class _AgencyOneState extends State<AgencyOne> {
               ),
               TextButton(
                   onPressed: () async {
-                    const url = 'https://www.facebook.com/PresidentBSRU/';
+                    const url =
+                        'https://www.facebook.com/financebsru/';
                     if (await canLaunch(url)) {
                       await launch(url);
                     } else {
                       throw 'Couid not launch $url';
                     }
                   },
-                  child: Text('https://www.facebook.com/\nPresidentBSRU/'))
+                  child: Text(
+                      'https://www.facebook.com/financebsru/'))
             ],
           ),
         ));

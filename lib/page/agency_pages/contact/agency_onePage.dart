@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class AgencyTwo extends StatefulWidget {
+class AgencyOne extends StatefulWidget {
   @override
-  _AgencyTwoState createState() => _AgencyTwoState();
+  _AgencyOneState createState() => _AgencyOneState();
 }
 
-class _AgencyTwoState extends State<AgencyTwo> {
+class _AgencyOneState extends State<AgencyOne> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -14,7 +14,7 @@ class _AgencyTwoState extends State<AgencyTwo> {
       appBar: AppBar(
         toolbarHeight: 40,
         backgroundColor: Colors.purple,
-        // title: Text('สำนักงานอธิการบดี'),
+        title: Text('สำนักงานอธิการบดี'),
         leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () {
@@ -47,7 +47,7 @@ class _AgencyTwoState extends State<AgencyTwo> {
           borderRadius: BorderRadius.circular(50), color: Colors.white),
 
       // color: Colors.green,
-      child: Image.asset('images/cropped-banner.hrmd_.jpg'),
+      child: Image.asset('images/agencyOne.jpg'),
     );
   }
 
@@ -84,14 +84,14 @@ class _AgencyTwoState extends State<AgencyTwo> {
               // Text('เว็บไซต์'),
               TextButton(
                   onPressed: () async {
-                    const url = 'http://hrmd.bsru.ac.th/';
+                    const url = 'http://president.bsru.ac.th/th/';
                     if (await canLaunch(url)) {
                       await launch(url);
                     } else {
                       throw 'Couid not launch $url';
                     }
                   },
-                  child: Text('http://hrmd.bsru.ac.th/'))
+                  child: Text('http://president.bsru.ac.th/th/'))
             ],
           ),
         ));
@@ -116,7 +116,7 @@ class _AgencyTwoState extends State<AgencyTwo> {
               ),
               Text(
                 '0-2473-7000 ',
-                style: TextStyle(color: Colors.blue),
+                style: TextStyle(color: Colors.blue,fontSize: 22),
               ),
               Text('ต่อ 1100,1108'),
               IconButton(
@@ -131,7 +131,7 @@ class _AgencyTwoState extends State<AgencyTwo> {
                     } else {
                       throw 'Couid not launch $url';
                     }
-                  }),
+                  })
             ],
           ),
         ));
@@ -156,14 +156,14 @@ class _AgencyTwoState extends State<AgencyTwo> {
               ),
               TextButton(
                   onPressed: () async {
-                    const url = 'https://m.facebook.com/PresidentBSRU/';
+                    const url = 'https://www.facebook.com/PresidentBSRU/';
                     if (await canLaunch(url)) {
                       await launch(url);
                     } else {
                       throw 'Couid not launch $url';
                     }
                   },
-                  child: Text('https://m.facebook.com/\nPresidentBSRU/'))
+                  child: Text('https://www.facebook.com/\nPresidentBSRU/'))
             ],
           ),
         ));
