@@ -1,11 +1,13 @@
+import 'package:bsru/page/agency_pages/Agency_onePage.dart';
+import 'package:bsru/page/agency_pages/agency_twoPage.dart';
 import 'package:flutter/material.dart';
 
-class AgencyPage extends StatefulWidget {
+class AgencyPageContact extends StatefulWidget {
   @override
-  _AgencyPageState createState() => _AgencyPageState();
+  _AgencyPageContactState createState() => _AgencyPageContactState();
 }
 
-class _AgencyPageState extends State<AgencyPage> {
+class _AgencyPageContactState extends State<AgencyPageContact> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -63,9 +65,17 @@ class _AgencyPageState extends State<AgencyPage> {
     );
   }
 
+  Future<Null> route(Widget routeName) async {
+    MaterialPageRoute materialPageRoute =
+        MaterialPageRoute(builder: (BuildContext context) => routeName);
+    Navigator.of(context).push(materialPageRoute);
+  }
+
   RaisedButton agency_one() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyOne());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -85,7 +95,9 @@ class _AgencyPageState extends State<AgencyPage> {
 
   RaisedButton agency_two() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyTwo());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -491,18 +503,19 @@ class _AgencyPageState extends State<AgencyPage> {
           padding: const EdgeInsets.all(5.0),
           child: Row(
             children: [
-              Column(crossAxisAlignment: CrossAxisAlignment.start,
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     'Academic Collaboration on Thai',
                     style: TextStyle(fontSize: 12),
-                  ),Text(
-                'Language and Culture for Foreign Students',
-                style: TextStyle(fontSize: 12),
-              ),
+                  ),
+                  Text(
+                    'Language and Culture for Foreign Students',
+                    style: TextStyle(fontSize: 12),
+                  ),
                 ],
               ),
-              
             ],
           ),
         ),

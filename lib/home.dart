@@ -1,4 +1,4 @@
-import 'package:bsru/page/agency_page.dart';
+import 'package:bsru/page/agency_pages/agency_page.dart';
 import 'package:bsru/page/calendar_page.dart';
 import 'package:bsru/page/contact_page.dart';
 import 'package:bsru/page/course_page.dart';
