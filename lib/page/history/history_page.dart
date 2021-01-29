@@ -1,6 +1,11 @@
 import 'package:bsru/page/history/history_pag1.dart';
 import 'package:flutter/material.dart';
 
+import 'history_pag2.dart';
+import 'history_pag3.dart';
+import 'history_pag4.dart';
+import 'history_pag5.dart';
+
 class HistoryPage extends StatefulWidget {
   @override
   _HistoryPageState createState() => _HistoryPageState();
@@ -74,7 +79,7 @@ class _HistoryPageState extends State<HistoryPage> {
                               MaterialPageRoute materialPageRoute =
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          HistoryPag1());
+                                          HistoryPag2());
                               Navigator.of(context).push(materialPageRoute);
                             },
                             shape: RoundedRectangleBorder(
@@ -101,7 +106,7 @@ class _HistoryPageState extends State<HistoryPage> {
                               MaterialPageRoute materialPageRoute =
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          HistoryPag1());
+                                          HistoryPag3());
                               Navigator.of(context).push(materialPageRoute);
                             },
                             shape: RoundedRectangleBorder(
@@ -128,7 +133,7 @@ class _HistoryPageState extends State<HistoryPage> {
                               MaterialPageRoute materialPageRoute =
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          HistoryPag1());
+                                          HistoryPag4());
                               Navigator.of(context).push(materialPageRoute);
                             },
                             shape: RoundedRectangleBorder(
@@ -155,7 +160,7 @@ class _HistoryPageState extends State<HistoryPage> {
                               MaterialPageRoute materialPageRoute =
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          HistoryPag1());
+                                          HistoryPag5());
                               Navigator.of(context).push(materialPageRoute);
                             },
                             shape: RoundedRectangleBorder(
@@ -165,7 +170,7 @@ class _HistoryPageState extends State<HistoryPage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: <Widget>[
                                 Image.asset(
-                                  'images/parchment.png',
+                                  'images/executive.png',
                                   height: 150,
                                 ),
                                 Text(

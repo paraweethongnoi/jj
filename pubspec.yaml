@@ -97,6 +97,11 @@ flutter:
     - images/parchment.png
     - images/BSRUhis.png
     - images/knowledge.png
+    - images/BSRU1-2.jpg
+    - images/executive.png
+    - images/Tarbsru.jpeg
+    - images/unnamed.jpg
+    
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -117,6 +122,10 @@ flutter:
     - family: Sarabun
       fonts:
         - asset: fonts/Sarabun-Regular.ttf
+    - family: Kanit
+      fonts:
+        - asset: fonts/Kanit-Regular.ttf
+
         
   #
   # For details regarding fonts from package dependencies,
