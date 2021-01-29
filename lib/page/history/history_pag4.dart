@@ -9,10 +9,18 @@ class _HistoryPag4State extends State<HistoryPag4> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          backgroundColor: Colors.purple,
+          leading: IconButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            icon: Icon(Icons.arrow_back),
+          ),
+          title: Text('วิสัยทัศน์ พันธกิจ')),
       body: Container(
         child: Column(
           children: <Widget>[
-
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
@@ -25,54 +33,66 @@ class _HistoryPag4State extends State<HistoryPag4> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            'สัญลักษณ์ประจำ  มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา',
-                            style:
-                                TextStyle(fontSize: 22.0, color: Colors.purple),
+                          Row(
+                            children: [
+                              Image.asset(
+                                'images/idea.png',
+                                height: 50,
+                              ),
+                              Text(
+                                'วิสัยทัศน์',
+                                style: TextStyle(
+                                    fontSize: 25.0, color: Colors.purple),
+                              ),
+                            ],
                           ),
-                          Divider(color: Colors.black38),
-                          SizedBox(height: 10),
+                              SizedBox(height: 10),
                           Text(
-                            'ตราประจำมหาวิทยาลัย',
-                            style: TextStyle(
-                                fontSize: 18.0, color: Colors.purple[900]),
-                          ),
-                          SizedBox(height: 10),
-                          Image.asset(
-                            'images/BSRUhis.png',
-                            height: 200,
-                            width: 900,
-                          ),
-                          Divider(color: Colors.black38),
-                          Text(
-                            'สัญลักษณ์ประจำสถาบัน',
-                            style: TextStyle(
-                                fontSize: 18.0, color: Colors.purple[900]),
-                          ),
-                          SizedBox(height: 10),
-                          Text(
-                            '''
-- สีน้ำเงิน แทนค่าสถาบันพระมหากษัตริย์ผู้ให้กำเนิด และพระราชทาน “สถาบันราชภัฏ”
-- สีเขียว แทนค่าแหล่งที่ตั้งของสถาบันฯ 36 แห่งในแหล่งธรรมชาติและสิ่งแวดล้อมที่สวยงาม
-- สีทอง แทนค่าความเจริญรุ่งเรืองทางภูมิปัญญา
-- สีส้ม แทนค่าความรุ่งเรืองทางศิลปวัฒนธรรมท้องถิ่น ที่ก้าวไกลใน 36 สถาบัน
-- สีขาว แทนค่าความคิดอันบริสุทธิ์ของนักปราชญ์แห่งพระบาทสมเด็จพระเจ้าอยู่หัว''',
+                            '        มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา มุ่งมั่น ทุ่มเทให้เป็นเลิศของประเทศ และเป็นมหาวิทยาลัยคุณภาพสากลชั้นนำ(World Class Quality University)',
                             style: TextStyle(
                               fontSize: 15.0,
                             ),
                           ),
-                          Divider(color: Colors.black38),
-                          Text(
-                            'ต้นไม้ประจำ มหาวิทยาลัย',
-                            style: TextStyle(
-                                fontSize: 18.0, color: Colors.purple[900]),
-                          ),
                           SizedBox(height: 10),
-                          Image.asset(
-                            'images/unnamed.jpg',
-                            height: 200,
-                            width: 900,
+                          Divider(color: Colors.black38),
+                            Row(
+                            children: [
+                              Image.asset(
+                                'images/shuttle.png',
+                                height: 50,
+                              ),
+                              Text(
+                                'พันธกิจ',
+                                style: TextStyle(
+                                    fontSize: 25.0, color: Colors.purple),
+                              ),
+                            ],
                           ),
+                          SizedBox(height: 20),
+                          Text(
+                            '''
+- บริหารจัดการศึกษาบนฐานองค์ความรู้สู่การเป็นมหาวิทยาลัยสากลชั้นนำ (World – Class Quality University)
+”
+- บริหารจัดการด้านวิชาการอย่างมืออาชีพ เพื่อผลิตบัณฑิตคุณภาพที่เปี่ยมด้วยคุณธรรม มีสุขภาพอนามัยดี มีทักษะวิชาการมีทักษะทางภาษาและเทคโนโลยี พร้อมเป็น สมาชิกประชาคมอาเซียน และประชาคมโลก
+
+- พัฒนาบุคลากรเปี่ยมคุณธรรม และศักยภาพ พร้อมเป็นผู้นำทางปัญญา และเป็นแบบอย่าง
+
+- พัฒนาเป็นแหล่งเรียนรู้ สืบสาน และเป็นเลิศด้านวิชาการ ภาษา ศิลปวัฒนธรรม และกีฬา
+
+- พัฒนาให้เป็นศูนย์กลางการวิจัย และวิชาการ (Research and Academic Hub) ระดับนานาชาติ ที่เชื่อมโยงเครือข่ายทั้งในประเทศ กลุ่มอาเซียน และระดับโลก เน้น การแลกเปลี่ยนเรียนรู้ร่วมกับนักวิจัย นักวิชาการ ดีเด่น ระดับประเทศและระดับสากล
+
+- พัฒนาศูนย์ภาษานานาชาติ (International Language Center) ที่ส่งเสริมการเรียนรู้และวิจัยเกี่ยวกับภาษาทุกภาษาโดยเฉพาะภาษาเศรษฐกิจ รวมถึงภาษาการอาชีพ
+- พัฒนาให้เป็นแหล่งเรียนรู้ และศูนย์อาเซียนศึกษา (ASEAN Studies & Resource & Center)
+
+- พัฒนาศูนย์นอกที่ตั้ง/วิทยาเขต ที่ได้มาตรฐานระดับสากล เน้นการน้อมนำปรัชญาเศรษฐกิจพอเพียง และองค์ความรู้สากล เพื่อสร้างบัณฑิตที่มีอัจฉริยภาพด้านภาษา ไทย และภาษาอังกฤษ คณิตศาสตร์ วิทยาศาสตร์ สังคม เป็นต้นและต่อยอดวิชาชีพครูตามความสมัครใจของผู้เรียนของมหาวิทยาลัย และของวิทยาเขต (โครงการช้างเผือก)
+
+- จัดภูมิทัศน์ที่สวยงาม สง่า และมีศิลปะ ตลอดจนจัดบรรยากาศเชิงวิชาการ และการอยู่ร่วมกันอย่างผา''',
+                            style: TextStyle(
+                              fontSize: 15.0,
+                            ),
+                          ),
+                         
+                          
                         ],
                       ),
                     ),

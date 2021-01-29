@@ -9,6 +9,15 @@ class _HistoryPag3State extends State<HistoryPag3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+            backgroundColor: Colors.purple,
+            leading: IconButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              icon: Icon(Icons.arrow_back),
+            ),
+            title: Text('ตราสัญลักษณ์')),
       body: Container(
         child: Column(
           children: <Widget>[

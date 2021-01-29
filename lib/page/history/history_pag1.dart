@@ -9,6 +9,15 @@ class _HistoryPag1State extends State<HistoryPag1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          backgroundColor: Colors.purple,
+          leading: IconButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            icon: Icon(Icons.arrow_back),
+          ),
+          title: Text('ประวัติมหาวิทยาลัย')),
       body: Container(
         child: Column(
           children: <Widget>[
