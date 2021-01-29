@@ -83,6 +83,7 @@ flutter:
     - images/address.png
     - images/agencyOne.jpg
     - images/cropped-banner.hrmd_.jpg
+<<<<<<< HEAD
     - images/histo1.png
     - images/parchment.png
     - images/knowledge.png
@@ -90,6 +91,17 @@ flutter:
     - images/executive.png
     - images/headp1.jpg
     
+=======
+    - images/cropped-web.jpg
+    - images/nn.png
+    - images/bv.png
+    - images/gd.jpg
+    - images/gw.jpg
+    - images/hr.jpg
+    - images/web.png
+    - images/gj.png
+    - images/fl.png
+>>>>>>> d2837525153b8bdb71160a86a80d8e5a26beaba7
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

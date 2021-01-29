@@ -1,5 +1,14 @@
-import 'package:bsru/page/agency_pages/Agency_onePage.dart';
-import 'package:bsru/page/agency_pages/agency_twoPage.dart';
+import 'package:bsru/page/agency_pages/contact/ageency_ninePage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_eightPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_elevenPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_fifPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_fourPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_onePage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_sevenPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_sixPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_tenPage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_threePage.dart';
+import 'package:bsru/page/agency_pages/contact/agency_twoPage.dart';
 import 'package:flutter/material.dart';
 
 class AgencyPageContact extends StatefulWidget {
@@ -117,7 +126,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_three() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyThree());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -137,7 +148,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_four() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyFour());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -157,7 +170,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_five() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyFive());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -177,7 +192,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_six() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencySix());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -197,7 +214,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_seven() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencySeven());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -217,7 +236,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_eight() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyEight());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -237,7 +258,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_nine() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyNine());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
@@ -257,14 +280,16 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_ten() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyTen());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Row(
             children: [
               Text(
-                'สำนักกิจการนักศคึกษา',
+                'สำนักกิจการนักศึกษา',
                 style: TextStyle(fontSize: 18),
               ),
             ],
@@ -277,7 +302,9 @@ class _AgencyPageContactState extends State<AgencyPageContact> {
 
   RaisedButton agency_eleven() {
     return RaisedButton(
-        onPressed: () {},
+        onPressed: () {
+          route(AgencyEleven());
+        },
         padding: const EdgeInsets.all(5),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
