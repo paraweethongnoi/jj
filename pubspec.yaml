@@ -92,6 +92,11 @@ flutter:
     - images/web.png
     - images/gj.png
     - images/fl.png
+    - images/headp1.jpg
+    - images/histo1.png
+    - images/parchment.png
+    - images/BSRUhis.png
+    - images/knowledge.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see
