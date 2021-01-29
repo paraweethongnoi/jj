@@ -3,7 +3,7 @@ import 'package:bsru/page/calendar_page.dart';
 import 'package:bsru/page/contact_page.dart';
 import 'package:bsru/page/course_page.dart';
 import 'package:bsru/page/download_page.dart';
-import 'package:bsru/page/history_page.dart';
+import 'package:bsru/page/history/history_page.dart';
 import 'package:bsru/page/information_page.dart';
 import 'package:bsru/page/manual_page.dart';
 import 'package:bsru/page/map_page.dart';
